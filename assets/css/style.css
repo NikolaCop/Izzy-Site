@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(28, 47, 65, 0.9);
+  background: rgba(36, 36, 36, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background: rgba(36, 36, 36, 1);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #b8b8b8;
 }
 
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5846f9;
+  color: #00a516;
 }
 
 .navbar-mobile .getstarted {
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #5846f9;
+  color: #00ff40;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -567,13 +567,14 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
+
   padding: 120px 0;
 }
 
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #015f1d;
 }
 
 .about .content ul {
@@ -605,12 +606,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(45deg, #59af7d 0%, #252525 100%);
   position: relative;
 }
 
 .about .content .read-more:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(180deg, #252525 0%, ##59af7d 100%);
 }
 
 .about .content .read-more i {
@@ -624,7 +625,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgba(54, 54, 54, 0.5) 0%, rgba(119, 119, 119, 0.5) 100%), url("https://i.pinimg.com/originals/be/ea/58/beea58cf51b99a0b171a9dd095e36bcd.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(190, 190, 190, 0.3) 0%, rgba(71, 71, 71, 0.7) 100%), url("https://i.pinimg.com/originals/be/ea/58/beea58cf51b99a0b171a9dd095e36bcd.jpg") center center no-repeat;
   padding: 80px 0 60px 0;
 }
 
@@ -787,7 +788,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5846f9;
+  color: #009e1a;
 }
 
 .features .icon-box p {
@@ -806,6 +807,18 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials {
+    background: linear-gradient(45deg, rgba(66, 66, 66, 0.3) 0%, rgba(71, 71, 71, 0.7) 100%), url("https://i.pinimg.com/originals/be/ea/58/beea58cf51b99a0b171a9dd095e36bcd.jpg") center center no-repeat;
+   background-size: cover;
+}
+
+#testimonials h2 {
+  color: rgba(255, 255, 255, 0.8);
+}
+#testimonials h6 {
+  color: rgba(255, 255, 255);
+}
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
@@ -835,7 +848,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #b1a9fc;
+  color: #a1a1a1;
   font-size: 26px;
 }
 
@@ -874,11 +887,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5846f9;
+  border: 1px solid #009e1a;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5846f9;
+  background-color: #009e1a;
 }
 
 @media (max-width: 767px) {
@@ -920,7 +933,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5846f9;
+  background: #adadad;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -936,7 +949,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(88, 70, 249, 0.8);
+  background: rgba(151, 151, 151, 0.8);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1079,6 +1092,7 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1282,17 +1296,29 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  background: linear-gradient(45deg, rgba(66, 66, 66, 0.3) 0%, rgba(71, 71, 71, 0.7) 100%), url("https://i.pinimg.com/originals/be/ea/58/beea58cf51b99a0b171a9dd095e36bcd.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#contact h2 {
+  color: rgba(255, 255, 255, 0.8);
+}
+#contact h6 {
+  color: rgba(255, 255, 255);
+}
+
 .contact .info-box {
   color: #444444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(31, 31, 31, 0.6);
   padding: 20px 0 30px 0;
   background: #fff;
 }
 
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #20913c;
   border-radius: 50%;
   padding: 8px;
 }
