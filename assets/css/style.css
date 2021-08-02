@@ -14,17 +14,21 @@ font-family: 'Scope One', serif;
 }
 
 a {
-  color: #5846f9;
+  color: #f0b240;
   text-decoration: none;
+  text-shadow: 3px 3px 4x #000000;
 }
 
 a:hover {
-  color: #8577fb;
+  color: #d4d4d4;
   text-decoration: none;
+    text-shadow: 3px 3px 4x #000000;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Scope One', serif;
+
 }
 
 /*--------------------------------------------------------------
@@ -51,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #7b27d8;
+  background: #1a9401;
   color: #fff;
 }
 
@@ -79,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #0b5c00;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -324,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(36, 36, 36, 0.9);
+  background-color: whitesmoke;
   transition: 0.3s;
   z-index: 999;
 }
@@ -343,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background: rgba(36, 36, 36, 1);
+ background-color: whitesmoke;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -355,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #b8b8b8;
+  color: #313131;
 }
 
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
@@ -422,12 +426,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
   margin: 10px 0 0 0;
   font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #hero .btn-get-started {
@@ -574,7 +580,8 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #015f1d;
+  color: #000000;
+  
 }
 
 .about .content ul {
@@ -583,43 +590,15 @@ section {
 }
 
 .about .content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #5846f9;
-}
+
 
 .about .content p:last-child {
   margin-bottom: 0;
 }
 
-.about .content .read-more {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 50px 10px 28px;
-  border-radius: 5px;
-  transition: 0.5s;
-  color: #fff;
-  background: linear-gradient(45deg, #59af7d 0%, #252525 100%);
-  position: relative;
-}
-
-.about .content .read-more:hover {
-  background: linear-gradient(180deg, #252525 0%, ##59af7d 100%);
-}
-
-.about .content .read-more i {
-  font-size: 22px;
-  position: absolute;
-  right: 20px;
-  top: 12px;
-}
 
 /*--------------------------------------------------------------
 # Counts
@@ -635,6 +614,7 @@ section {
   color: #fff;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .counts .counters p {
@@ -642,139 +622,16 @@ section {
   margin: 0 0 20px 0;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-}
 
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
 
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
 
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
-}
-
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .icon-box h4 a {
-  color: #2c4964;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-}
-
-.services .iconbox-blue i {
-  color: #47aeff;
-}
-
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-
-.services .iconbox-pink i {
-  color: #e80368;
-}
-
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-
-.services .iconbox-red i {
-  color: #ff5828;
-}
-
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
-}
 
 /*--------------------------------------------------------------
 # Features
@@ -793,6 +650,8 @@ section {
 
 #testimonials h2 {
   color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 2px 4px #000000;
+
 }
 #testimonials h6 {
   color: rgba(255, 255, 255);
