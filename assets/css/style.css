@@ -9,8 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-font-family: 'Scope One', serif;
+  font-family: 'Scope One', serif;
   color: #444444;
+}
+
+#navbarHamburger {
+  color: white;
 }
 
 a {
